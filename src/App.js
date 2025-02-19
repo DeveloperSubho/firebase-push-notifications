@@ -44,7 +44,7 @@ export default function App() {
           className="notification-banner-link"
           onClick={handleGetFirebaseToken}
         >
-          enable push notifications.
+          Enable push notifications.
         </a>
       </div>}
 
