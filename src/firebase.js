@@ -30,7 +30,7 @@ export const getOrRegisterServiceWorker = () => {
       .then((serviceWorker) => {
         if (serviceWorker) return serviceWorker;
         return window.navigator.serviceWorker.register(swPath, {
-          scope: '/firebase-push-notification-scope',
+          scope: isLocalhost ? "/" : `/${repoName}/`,
         });
       });
   }
