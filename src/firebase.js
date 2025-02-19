@@ -10,6 +10,13 @@ const firebaseConfig = {
   appId: "1:363199561924:web:ef9fb4b3c659fca35bc991"
 };
 
+const isLocalhost = window.location.hostname === "localhost";
+const repoName = "firebase-push-notifications"; // Your GitHub repo name
+
+const swPath = isLocalhost
+  ? "/firebase-messaging-sw.js" // Localhost path
+  : `/${repoName}/firebase-messaging-sw.js`; // GitHub Pages path
+
 console.log('*** Environment ***', process.env.REACT_APP_ENV)
 console.log('*** Firebase Config ***', firebaseConfig)
 
@@ -22,7 +29,7 @@ export const getOrRegisterServiceWorker = () => {
       .getRegistration('/firebase-push-notification-scope')
       .then((serviceWorker) => {
         if (serviceWorker) return serviceWorker;
-        return window.navigator.serviceWorker.register('/firebase-messaging-sw.js', {
+        return window.navigator.serviceWorker.register(swPath, {
           scope: '/firebase-push-notification-scope',
         });
       });
