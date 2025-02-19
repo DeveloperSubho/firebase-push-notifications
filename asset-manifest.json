@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/firebase-push-notifications/static/css/main.fce570b1.css",
-    "main.js": "/firebase-push-notifications/static/js/main.6544b1c6.js",
+    "main.js": "/firebase-push-notifications/static/js/main.8d8c7b6d.js",
     "static/js/787.af3b04af.chunk.js": "/firebase-push-notifications/static/js/787.af3b04af.chunk.js",
     "static/media/sparky-dash-high-five.gif": "/firebase-push-notifications/static/media/sparky-dash-high-five.c9d47f19a726eb033542.gif",
     "index.html": "/firebase-push-notifications/index.html",
     "main.fce570b1.css.map": "/firebase-push-notifications/static/css/main.fce570b1.css.map",
-    "main.6544b1c6.js.map": "/firebase-push-notifications/static/js/main.6544b1c6.js.map",
+    "main.8d8c7b6d.js.map": "/firebase-push-notifications/static/js/main.8d8c7b6d.js.map",
     "787.af3b04af.chunk.js.map": "/firebase-push-notifications/static/js/787.af3b04af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fce570b1.css",
-    "static/js/main.6544b1c6.js"
+    "static/js/main.8d8c7b6d.js"
   ]
 }
