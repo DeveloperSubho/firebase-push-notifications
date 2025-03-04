@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/firebase-push-notifications/static/css/main.fce570b1.css",
-    "main.js": "/firebase-push-notifications/static/js/main.8d8c7b6d.js",
+    "main.js": "/firebase-push-notifications/static/js/main.c959a84e.js",
     "static/js/787.af3b04af.chunk.js": "/firebase-push-notifications/static/js/787.af3b04af.chunk.js",
-    "static/media/sparky-dash-high-five.gif": "/firebase-push-notifications/static/media/sparky-dash-high-five.c9d47f19a726eb033542.gif",
+    "static/media/plansource.png": "/firebase-push-notifications/static/media/plansource.8e5a69df280861b98364.png",
     "index.html": "/firebase-push-notifications/index.html",
     "main.fce570b1.css.map": "/firebase-push-notifications/static/css/main.fce570b1.css.map",
-    "main.8d8c7b6d.js.map": "/firebase-push-notifications/static/js/main.8d8c7b6d.js.map",
+    "main.c959a84e.js.map": "/firebase-push-notifications/static/js/main.c959a84e.js.map",
     "787.af3b04af.chunk.js.map": "/firebase-push-notifications/static/js/787.af3b04af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fce570b1.css",
-    "static/js/main.8d8c7b6d.js"
+    "static/js/main.c959a84e.js"
   ]
 }
